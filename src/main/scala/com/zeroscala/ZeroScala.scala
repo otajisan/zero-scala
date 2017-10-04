@@ -7,5 +7,5 @@ import org.springframework.context.annotation.ComponentScan
 
 object ZeroScala extends App {
 //  SpringApplication.run(ZeroScala.getClass, args: _*)
-  SpringApplication.run(classOf[BootConfig], args: _*)
+  SpringApplication.run(classOf[BootConfig])
 }
