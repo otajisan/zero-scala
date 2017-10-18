@@ -6,7 +6,7 @@ version := "0.1"
 scalaVersion := "2.12.2"
 
 libraryDependencies ++= Seq(
-  "org.springframework.boot" % "spring-boot-starter-web" % "1.5.3.RELEASE",
+  "org.springframework.boot" % "spring-boot-starter-web" % "1.5.8.RELEASE",
 //  "org.springframework.boot" % "spring-boot-starter-data-jpa" % "1.5.3.RELEASE",
 //  "org.springframework.boot" % "spring-boot-starter-actuator" % "1.5.3.RELEASE",
 //  "org.springframework.boot" % "spring-boot-maven-plugin" % "1.5.3.RELEASE",
@@ -14,6 +14,7 @@ libraryDependencies ++= Seq(
 )
 
 mainClass in assembly := Some("com.zeroscala.ZeroScala")
+//mainClass in assembly := "com.zeroscala.ZeroScala"
 
 // 正しい書き方がよく分からん
 assemblyMergeStrategy in assembly := {
